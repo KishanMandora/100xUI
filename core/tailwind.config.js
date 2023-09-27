@@ -5,7 +5,7 @@ module.exports = {
     colors: {
       "neutral-50": "#F9F9F9",
       "neutral-100": "#F4F4F4",
-      "neutral-200": "#EAEAEA",
+      "neutral-200": "#E4E4E4",
       "neutral-300": "#D3D3D3",
       "neutral-400": "#A2A2A2",
       "neutral-500": "#737373",
@@ -24,6 +24,7 @@ module.exports = {
       stroke: "#546A7A",
       success: "#00BE74",
       error: "#8B141A",
+      transparent: "transparent",
     },
     fontSize: {
       xxxs: "0.625rem",
@@ -41,7 +42,35 @@ module.exports = {
       "4xl": "1.9375rem",
       "5xl": "3rem",
     },
-    extend: {},
+    extend: {
+      spacing: {
+        "50%-": "-50%",
+        "2.5-": "-.625rem",
+        4.5: "1.125rem",
+        17: "4.25rem",
+        17.25: "4.375rem",
+        55: "13.75rem",
+        84: "21rem",
+        87: "21.75rem",
+        106: "26.5rem",
+        110: "27.5rem",
+        120: "30rem",
+      },
+      borderRadius: {
+        "2.5xl": "1.25rem",
+        "4xl": "4rem",
+      },
+      screens: {
+        tab: "820px",
+        mobile: "480px",
+      },
+      borderWidth: {
+        56: "3.5rem",
+      },
+      opacity: {
+        65: "0.65",
+      },
+    },
   },
   plugins: [],
 };
