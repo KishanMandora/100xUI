@@ -57,6 +57,7 @@ module.exports = {
         110: "27.5rem",
         120: "30rem",
         128: "32rem",
+        150: "37.5rem",
       },
       borderRadius: {
         "2.5xl": "1.25rem",
@@ -71,6 +72,10 @@ module.exports = {
       },
       opacity: {
         65: "0.65",
+      },
+      minWidth: {
+        9: "2.25rem",
+        12: "3rem",
       },
     },
   },
