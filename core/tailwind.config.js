@@ -42,6 +42,9 @@ module.exports = {
       "4xl": "1.9375rem",
       "5xl": "3rem",
     },
+    fontFamily: {
+      inter: ["Inter", "sans-serif"],
+    },
     extend: {
       spacing: {
         "50%-": "-50%",
